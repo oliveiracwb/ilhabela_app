@@ -1,0 +1,94 @@
+body {
+padding: 0px;
+margin: 0px;
+background-color: White; 
+}
+
+#container
+{
+	margin: 0 30px;
+	background: #fff;
+}
+
+#header
+{
+	width:100%;
+	font-family:  Arial;
+}
+
+#navigation
+{
+	float: left;
+	width: 98%;
+	background: #1A9900;
+	font-family:  Arial;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content
+{ 
+	clear: left;
+	font-family:  Arial;
+}
+
+#header h1
+{ 
+	font-family: Arial, Tahoma, Sans-serif;
+	text-indent:3%
+}
+
+#content h2
+{
+	font-size: large;
+	font-family: Arial, Tahoma, Sans-serif;
+	text-indent:1%
+}
+
+#content h3
+{
+	font-size: large;
+	font-family: Arial, Tahoma, Sans-serif;
+	text-indent:2%
+}
+
+#content p
+{
+	font-size: normal;
+	font-family: Arial, Tahoma, Sans-serif;
+	margin-left: 3%;
+    text-indent: 0;
+}
+
+#footer
+{
+	background: #1A9900;
+	font-size: X-small;
+	color: #fff;
+	text-align: right;
+	padding: 2%;
+	font-family: Arial, Tahoma, Sans-serif;
+	height: 2%;
+}
